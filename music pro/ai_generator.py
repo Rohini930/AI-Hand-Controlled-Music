@@ -1,6 +1,7 @@
 import google.generativeai as genai
+import os 
 
-API_KEY = "AIzaSyBK0mtPEDtdtBF7voTlk4I-iXmO12DmBvU"
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 def refresh_model():
     if API_KEY:
@@ -27,3 +28,4 @@ def generate_message(context):
 
     except Exception as e:
         return "AI error: " + str(e)
+
