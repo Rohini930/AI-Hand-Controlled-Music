@@ -88,6 +88,17 @@ python main.py
 ```
 
 ---
+## Setup
+
+1. Get a Gemini API key from Google AI Studio.
+
+2. Open `ai_generator.py` and replace:
+
+API_KEY = "PASTE_YOUR_GEMINI_API_KEY"
+
+with your API key.
+
+3. Run the project.
 
 ## Hardware Requirements
 
